@@ -1,0 +1,38 @@
+header {
+    background: white;
+    opacity: 65%;
+}
+
+header ul li:first-child {
+    grid-column: 1 / span 6;
+    grid-row: 1;
+}
+
+header ul {
+    display: grid;
+    grid-template-columns: repeat(12, [nav-col-start] minmax(50px, 1fr));
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+header ul li {
+    grid-column: span 2;
+    justify-content: center;
+}
+
+header ul li > button {
+    color: $color-dark-grey--darken-20;
+    border: none;
+    background: transparent;
+    margin: 0;
+    width: 100%;
+}
+
+header .brand .menu {
+    display: inline-block;
+}
+
+header .menu {
+    float: right;
+    font-size: 1.15rem;
+}

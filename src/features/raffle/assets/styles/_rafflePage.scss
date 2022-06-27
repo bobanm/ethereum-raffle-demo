@@ -1,0 +1,49 @@
+.raffle-page {
+    // background: transparent url("../images/painter_female.jpg") no-repeat center
+    //     center fixed;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+}
+
+.raffle {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    text-align: center;
+}
+
+.raffle h3 {
+    margin-bottom: 2px;
+}
+
+.pot input {
+    width: 100%;
+}
+
+.tickets {
+    padding: 15px;
+}
+
+.tickets div {
+    margin: 5px;
+}
+
+.tickets input {
+    width: 100px;
+}
+
+.tickets button,
+.draw-winner button {
+    width: 300px;
+}
+
+.tickets span {
+    margin-left: 5px;
+}
+
+.draw-winner {
+    margin-top: 40px;
+}

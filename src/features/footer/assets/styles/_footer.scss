@@ -1,0 +1,14 @@
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100%;
+}
+
+footer .copy-right {
+    text-align: center;
+    margin: auto 0;
+}
+
+footer .logo > img {
+    float: right;
+}

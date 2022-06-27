@@ -1,0 +1,28 @@
+{
+    "sources": {
+        "/Users/mmccarty/source/repos/rocketengine/repos/public/youtube/blockchain-beginners-dapp-6-22/contracts/Raffle.sol": {
+            "ast": {
+                "absolutePath": "/Users/mmccarty/source/repos/rocketengine/repos/public/youtube/blockchain-beginners-dapp-6-22/contracts/Raffle.sol",
+                "exportedSymbols": {},
+                "id": 2,
+                "license": "GPL-3.0",
+                "nodeType": "SourceUnit",
+                "nodes": [
+                    {
+                        "id": 1,
+                        "literals": [
+                            "solidity",
+                            ">=",
+                            "0.8",
+                            ".6"
+                        ],
+                        "nodeType": "PragmaDirective",
+                        "src": "36:24:0"
+                    }
+                ],
+                "src": "36:25:0"
+            },
+            "id": 0
+        }
+    }
+}

@@ -36,8 +36,17 @@ const ethereumApiFactory = (web3Provider) => {
             potBalance,
             numberOfParticipants,
             winningTicket,
-            winnersTakeOfThePot
+            winnersTakeOfThePot,
+            raffleClosed
         ] = await contractReader.getRaffleInformation();
+
+        console.log(`contract address: ${contractReader.address}`);
+        console.log(`cost per ticket: ${costPerTicket.toString()}`);
+        console.log(`pot balance: ${potBalance.toString()}`);
+        console.log(`number of participants: ${numberOfParticipants.toString()}`);
+        console.log(`winning ticket: ${winningTicket}`);
+        console.log(`winner's take: ${winnersTakeOfThePot.toString()}`);
+        console.log(`raffle closed? ${raffleClosed}`);
 
         return {
             costPerTicket: ethers.utils.formatUnits(costPerTicket, "wei"),
